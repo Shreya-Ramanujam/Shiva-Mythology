@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ body {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+    color: white;
+    /* background-image: url("https://fsa.zobj.net/crop.php?r=41HyAszZ6-PAu2Ret9TVCW9cWCpArF9nIxhKxV4A86GJZ28ymCkGVfHNMQv3g0p-MEdmHucrulbm0o3esG5IE6EYb0RnITmYgHur8zVTrMWg11lXD8AVUNJpmCcX0jyLcsioMziaxbj-17HUkWICcQbWKSVbF1aDxu6W_R-kUowybKU0nWj39RDTYdc");
+  background-size: 100% 100%; */
+}
+ #ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-left:5%;
+}
+.bar {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+/* body{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} */
+a{
+    text-decoration:none;
+    color: white;
+}
+/* div {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction:column;
+​
+    } */
+    div{
+        display:flex;
+        text-align:center;
+        flex-direction:row;
+        justify-content:center;
+        width:100vw;
+        height:100vh;
+        align-items:center;
+        /* background-color: white;
+        margin: 10%; */
+      }
+      #id{
+          justify-content: center;
+      }
+      #ki{
+        background-color: orangered;
+        padding:4px;
+    }
+    /* .people{
+    display:inline-block;
+    border:5px solid black;
+    height:290px;
+    width:290px;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    color:hotpink;
+align-items: center;
+    /* justify-content: center; */
+    
+    /* align-items:center; */
+​
+​
+p{
+    font-size: medium;
+}
+/* #shreya{
+    display:flex;
+        text-align:center;
+        flex-direction:row;
+        justify-content:center;
+        width:100vw;
+        height:100vh;
+        align-items:center;
+} */
+#g{
+    background-color: red;
+    height: 50%;
+    display: block;
+}
+#s{
+    background-color: indigo;
+    height: 50%;
+    display: block;
+}
+#m{
+    background-color: dodgerblue;
+    height: 50%;
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#projr{
+    width: 500px;
+    height: 200px;
+}
+#sh{
+    color: white;
+}
+#h1{
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;
+    align-content: flex-start; */
+    margin-top: auto;
+
+}
